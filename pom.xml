@@ -22,6 +22,11 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.apache.thrift</groupId>
+			<artifactId>libthrift</artifactId>
+			<version>0.9.3</version>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.parquet</groupId>
 			<artifactId>parquet-thrift</artifactId>
 			<version>1.8.1</version>

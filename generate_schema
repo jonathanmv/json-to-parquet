@@ -1,0 +1,4 @@
+rm -rf gen-java src/main/java/jonathanmv/json_to_parquet/model
+thrift --gen java src/schema.thrift
+mv gen-java/jonathanmv/json_to_parquet/model src/main/java/jonathanmv/json_to_parquet
+rm -rf gen-java
